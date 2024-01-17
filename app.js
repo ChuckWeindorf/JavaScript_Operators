@@ -55,9 +55,17 @@ What is the value of: val === str3? false
 What is the value of: !isPresent2? true
 What is the value of: (“eleven” == str4 && val >= str3)? false
 What is the value of: (!isPresent2 || isPresent2)? true
+What is the value of: 0 == false?
+What is the value of: 0 === false?
+What is the value of: 0 != false?
+What is the value of 0 !== false?
 */
 console.log(val == str3);
 console.log(val === str3);
 console.log(!isPresent2);
 console.log("eleven" == str4 && val >= str3);
 console.log(!isPresent2 || isPresent2);
+console.log(0 == false);
+console.log(0 === false);
+console.log(0 != false);
+console.log(0 !== false);
